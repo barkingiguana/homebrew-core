@@ -1,8 +1,8 @@
 class JenkinsJobBuilder < Formula
   desc "Configure Jenkins jobs with YAML files stored in Git"
   homepage "http://ci.openstack.org/jjb.html"
-  url "https://github.com/openstack-infra/jenkins-job-builder/archive/1.6.1.tar.gz"
-  sha256 "08ade6762f377bd225fde39543cece83691e51e4b16cc9b5d6a55e6fc91b7c57"
+  url "https://pypi.python.org/packages/f1/ac/734f7dc9e16e725e2ff37eff4b87970a7a7fc69fbff977a4e5004fee0651/jenkins-job-builder-1.6.1.tar.gz#md5=a34d25d93937ea0a13a73414c85c6564"
+  sha256 "64fa63ad18ae874dbb17bd96d3c74ea6ec31c4af91a83aac2de3eaf79d9d7dec"
 
   bottle do
     cellar :any_skip_relocation
@@ -30,8 +30,8 @@ class JenkinsJobBuilder < Formula
   end
 
   resource "pbr" do
-    url "https://pypi.python.org/packages/source/p/pbr/pbr-0.11.1.tar.gz"
-    sha256 "701ab2922c29ca6004e3a4aab968728f33224968de9b51e432be2ee3340c2309"
+    url "https://pypi.python.org/packages/c3/2c/63275fab26a0fd8cadafca71a3623e4d0f0ee8ed7124a5bb128853d178a7/pbr-1.10.0.tar.gz#md5=8e4968c587268f030e38329feb9c8f17"
+    sha256 "186428c270309e6fdfe2d5ab0949ab21ae5f7dea831eab96701b86bd666af39c"
   end
 
   resource "six" do
